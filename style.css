@@ -72,16 +72,18 @@ header {
   letter-spacing: -0.01em;
   color: var(--text-primary);
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .logo-dot {
-  width: 8px;
-  height: 8px;
-  background-color: var(--accent);
+  width: 30px;
   border-radius: 50%;
-  box-shadow: 0 0 12px var(--accent);
+}
+.logo-dot img {
+  width: 100%;
+  height: 100%;
 }
 
 .session-badge {
